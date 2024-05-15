@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopción de Blockchain</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Learn</a></li>
+          <li><a href="#">Comunidad</a></li>
+          <li><a href="#">Wallet</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-content">
+      <h1>Adopción de Blockchain</h1>
+      <p>Descripción de tu plataforma aquí.</p>
+      <div class="buttons-container">
+        <button id="wallet-btn">Wallet</button>
+        <button id="email-btn">Correo Electrónico</button>
+        <button id="web3-btn">Aprende de Web3</button>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
